@@ -1,0 +1,406 @@
+<!--
+ 2014/01/06
+ Charles Perin
+ INRIA, Univ. Paris-Sud & CNRS-LIMSI
+ charles.perin@free.fr
+-->
+
+<!DOCTYPE html>
+<head>
+    <meta charset='utf-8'>
+    <title>A table</title>
+    <link type="text/css" rel="stylesheet" href="./css/atable.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/jquery-ui-lightness/jquery-ui-1.10.3.custom.min.css"/>
+    <script src="./lib/d3/d3.js"></script>
+    <script src="./lib/d3/d3.superformula.v0.min.js"></script>
+    <script src="./lib/jquery/jquery-1.9.1.js"></script>
+    <script src="./lib/jquery/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="./js/Utils.js"></script>
+    <script src="./js/Slider.js"></script>
+    <script src="./js/data2.js"></script>
+    <script src="./js/Widgets.js"></script>
+    <script src="./js/LineChart.js"></script>
+    <script src="./js/Table.js"></script>
+    <script src="./js/Tangle.js"></script>
+    <style>
+        .rect_frame {
+            fill: white;
+            fill-opacity: 0;
+            stroke: #aaa;
+            stroke-width: .5;
+        }
+
+        #all_days {
+            position:absolute;
+
+        }
+
+        .list_days {
+            border-style:dotted;
+            border-width:1px;
+            display:inline-block;
+
+            background-color:yellow;
+            text-align:center;
+        }
+
+        .list_days:hover {
+            border-style:solid;
+        }
+
+
+
+        path {
+            stroke: gray;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        line {
+            stroke: black;
+        }
+
+        text {
+            font-family: Arial;
+            font-size: 9pt;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!--<h1>À Table!</h1>-->
+
+<span id="widgets"></span>
+
+<p id="basic-widgets"> </p>
+<p id="slider-widget"> </p>
+
+<span id='rankingTable'></span>
+
+<p id="settings"></p>
+
+<script>
+
+
+// Retrieve Unique Teams
+var unique_teams = [];
+var unique_days = [];
+
+var TABLE_WIDTH = 700;
+var TABLE_HEIGHT = 600;
+var SLIDER_HEIGHT = 40;
+
+var current_day = 0;
+
+var DEBUG_CONSOLE = false;
+
+var table,widgets;
+
+var ENGLISH = 0, FRENCH = 1;
+var LANGUAGES = [ENGLISH,FRENCH];
+var DEFAULT_LANGUAGE = ENGLISH;
+
+//Widgets parameters
+var widgets_params = {
+    basic: {on: false, id: "basic-widgets"},
+    slider_classic: {on: false, id: "slider-widget"}
+};
+
+var slider_params = {
+  hasSlider: true,
+  margins:{top: 60, right: 20, bottom: 10, left: 20},
+  width: TABLE_WIDTH,
+  height: SLIDER_HEIGHT,
+  snapToTick: true,
+  orient: "top",
+  ticksOver: true,
+  ticksMargin: 5,
+  barHeight: 10,
+  thumbWidth: 14,
+  thumbHeight: 18,
+  initValue: 0
+};
+
+var table_params = {
+    mode: "Tangle",
+    slider: slider_params,
+    width:TABLE_WIDTH,
+    height:TABLE_HEIGHT,
+    line_chart:{
+      y_scale_mode: Y_SCALE_VALUE_ABS
+    },
+    margins:{top: 60, right: 20, bottom: 20, left: 20},
+    animations : {
+        sort: {
+            duration: 800,
+            delay: 0
+        },
+        change: {
+            duration: 400,
+            delay: 0
+        },
+        dm_focus_cell: {
+            start_fade_out_cells: 200,
+            start_toRectangle: 200,
+            start_toCircle: 100,
+            end_translate: 500,
+            end_toRectangle: 500,
+            end_fade_in_cells: 500
+        },
+      dm_switch_vis: {
+        switch: 500
+      }
+    }
+};
+
+
+// Tween http://bl.ocks.org/mbostock/1020902
+// https://gist.github.com/mbostock/1021103
+
+var size = 150;
+
+var rectangle = d3.superformula()
+        .type("rectangle")
+        .size(size * 20)
+        .segments(360)
+        .param("m", 4)
+        .param("n1", 100)
+        .param("n2", 100)
+        .param("n3", 100)
+        .param("a", 7)
+        .param("b", 2);
+
+var square = d3.superformula()
+        .type("square")
+        .size(size)
+        .segments(360)
+        .param("m", 4)
+        .param("n1", 100)
+        .param("n2", 100)
+        .param("n3", 100)
+        .param("a", 7)
+        .param("b", 2);
+
+var circle = d3.superformula()
+        .type("circle")
+        .size(size/10)
+        .segments(360)
+        .param("m", 4)
+        .param("n1", 2)
+        .param("n2", 2)
+        .param("n3", 2)
+        .param("a", 1)
+        .param("b", 1);
+
+var margins = {top: 20, right: 20, bottom: 20, left: 20};
+
+// Helper function ////////////////////////////////////
+var createAccessors = function(visExport) {
+    for (var n in visExport.opts) {
+        if (!visExport.opts.hasOwnProperty(n)) continue;
+        visExport[n] = (function(n) {
+            return function(v) {
+                return arguments.length ? (visExport.opts[n] = v, this) : visExport.opts[n];
+            }
+        })(n);
+    }
+};
+
+
+
+function d3_svg_lineStepMiddle(points, slope, plateau) {
+    var i = 0, n = points.length, p = points[0], path = [ p[0], ",", p[1] ];
+    while (++i < n) path.push("V", (p = points[i])[1], "H", p[0]);
+    return path.join("");
+}
+
+
+$(document).ready(function(){
+    init();
+});
+
+
+function init(){
+
+    parseData(function(){
+        var res = this;
+
+        createWidgets(res);
+        createTable(res);
+        initSettings();
+        if(table.slider){
+          table.slider.addListener(widgets);
+          widgets.addWidget(table.slider);
+        }
+
+        createHeader();
+        createLanguage();
+        createFooter();
+    });
+}
+
+function createFooter(){
+    var div = d3.select("body").append("div")
+            .attr("class","footer");
+    div.append("span")
+            .html("<a href='http://charles.perin.free.fr' target='_blank'>Charles Perin</a> & <a href='http://www.vuillemot.net' target='_blank'>Romain Vuillemot</a>, <a href='http://www.aviz.fr' target='_blank'>Aviz</a>");
+    div.append("input").attr("type","button")
+            .attr("id","button-who")
+            .attr("value","Who are we?")
+            .style("margin-left","290px")
+            .on("click", function(){
+                window.open("./WhoAreWe.html",'_blank');
+            });
+    div.append("input").attr("type","button")
+            .attr("id","button-help")
+            .attr("value","Need some help?")
+            .style("margin-left","10px")
+            .on("click", function(){
+                window.open("./Help.html",'_blank');
+            });
+
+  d3.select("body").append("div").attr("id","titlediv").html("Explore the ranking table of the 2012/2013 French Ligue 1");
+}
+
+function createHeader(){
+  var div = d3.select("body").append("div")
+      .attr("class","header");
+
+  var chrome = div.append("span")
+      .attr("id","chrome")
+      .on("mouseover",function(){d3.select(this).style("cursor","pointer")})
+      .on("click", function(){
+        window.open("http://www.google.com/chrome/", '_blank').focus();
+      });
+  chrome.append("label").text("Designed for Chrome");
+  chrome.append("img").attr("src","./img/chrome.png").style("width","20px").style("height","20px");
+
+}
+
+function createLanguage(){
+  var div = d3.select("body").append("div")
+      .attr("class","language");
+  div.selectAll(".lang-img")
+      .data(LANGUAGES)
+      .enter()
+      .append("img")
+      .attr("class","lang-img")
+      .attr("src", function(d){return "./img/flag_"+d+".jpg"})
+      .style("opacity", function(d){return d == DEFAULT_LANGUAGE ? 1 : .2})
+      .style("width","20px")
+      .style("height","12px")
+      .on("click", function(d){
+        d3.selectAll(".lang-img")
+            .style("opacity",function(d2){return d == d2 ? 1 : .2});
+        setLanguage(d);
+      });
+  setLanguage(DEFAULT_LANGUAGE);
+}
+
+var current_language = undefined;
+function setLanguage(language){
+  if(current_language != language){
+    current_language = language;
+    if(table != undefined){
+      table.setLanguage(current_language);
+    }
+  }
+  //www.google.com/chrome/
+  var div = d3.select("body").append("div")
+      .attr("class","header");
+
+  d3.select("#chrome").select("label").text(function(d){
+    if(current_language == ENGLISH) return "Designed for Chrome";
+    return "Optimisé pour Chrome";
+  });
+
+    d3.select("#titlediv").html(function(){
+        if(current_language == ENGLISH) return "Explore the ranking table of the 2012/2013 French Ligue 1";
+        return "Explorez le classement de la Ligue 1 Française 2012/2013";
+    });
+
+    d3.select("#button-who").attr("value",function(){
+        if(current_language == ENGLISH) return "Who are we?";
+        return "Qui sommes-nous?";
+    });
+    d3.select("#button-help").attr("value",function(){
+        if(current_language == ENGLISH) return "Need some help?";
+        return "Besoin d'aide ?";
+    });
+
+}
+
+
+function createWidgets(data){
+    //create the widgets
+    widgets_params.nb_days = data.length;
+    widgets = new Widgets(widgets_params);
+}
+
+function createTable(data){
+    //create the table
+    table_params.data = {
+        nbDays: data.length,
+        data: data,
+        columnLabel:
+        {
+            names:columnNames,
+            titles: columnTitles,
+            domain:[0,.06,.28,.36,.44,.52,.60,.68,.76,.84,.92,1]//between 0 and 1, custom cell size
+        },
+        current_day: current_day
+    };
+    table = new Table(table_params);
+}
+
+function initSettings(){//instead of createsettings
+    table.setInteractionMode(table_params.mode);
+    table.setAnimation("change","duration",table_params.animations.change.duration);
+    table.setAnimation("change","delay",table_params.animations.change.delay);
+    table.setAnimation("sort","duration",table_params.animations.sort.duration);
+    table.setAnimation("sort","delay",table_params.animations.sort.delay);
+}
+
+
+function parseData(callback){
+    d3.json("data/france-2012-2013.json", function(error, json) {
+        if(error)
+            return console.warn(error);
+
+        outcomes = json;
+
+        outcomes.forEach(function(d) {
+            if(unique_teams.contains(d.teamHome) == false) {
+                unique_teams.push(d.teamHome);
+            }
+        });
+
+        // Retrieve Unique Teams
+        outcomes.map(function(d) {
+            if(unique_days.contains(d.day) == false) {
+                unique_days.push(d.day);
+            }
+        });
+
+        callback.call(compute_data(outcomes));
+    });
+}
+
+
+</script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-43580710-1', 'ovh.net');
+    ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

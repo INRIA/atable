@@ -1,0 +1,212 @@
+<!--
+ 2014/01/06
+ Charles Perin
+ INRIA, Univ. Paris-Sud & CNRS-LIMSI
+ charles.perin@free.fr
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>A Table Help</title>
+  <script src="./lib/d3/d3.js"></script>
+  <script src="./lib/jquery/jquery-1.9.1.js"></script>
+  <script src="./lib/jquery/jquery-ui-1.10.3.custom.min.js"></script>
+</head>
+<body>
+
+<div id="language" style="text-align:center"></div>
+
+<div style="width:100%;text-align:justify;font-size: 14px;">
+
+
+  <table id="theTable" border="1">
+    <tbody>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+  var ENGLISH = 0,
+      FRENCH = 1;
+
+
+  $(document).ready(function(){
+    var div = d3.select("#language");
+    div.selectAll(".lang-img")
+        .data([ENGLISH,FRENCH])
+        .enter()
+        .append("img")
+        .attr("class","lang-img")
+        .attr("src", function(d){return "./img/flag_"+d+".jpg"})
+        .style("opacity", function(d){return d == ENGLISH ? 1 : .2})
+        .style("width","40px")
+        .style("height","24px")
+        .style("margin-left","20px")
+        .on("mouseover",function(){d3.select(this).style("cursor","pointer")})
+        .on("click", function(d){
+          d3.selectAll(".lang-img")
+              .style("opacity",function(d2){return d == d2 ? 1 : .2});
+          setLanguage(d);
+        });
+    setLanguage(ENGLISH);
+  });
+
+  function setLanguage(lang){
+    d3.select("#theTable tbody").selectAll("tr")
+        .data(content.map(function(d){
+      return [d[lang],d[2]]
+    }))
+        .each(function(tr){
+          d3.select(this).selectAll("td")
+              .data(tr)
+              .html(function(d,i){
+                if(i!=1) return d;
+                return d == null ? "" : '<img src="'+d+'" width="500px">'
+              })
+        })
+  }
+
+
+  var content = [
+    [
+      '<b>A Table</b> is an interactive table to explore and analyze the results of a football (soccer) championship.<br>' +
+          'In order to be able to perform advanced tasks that can\'t be done with existing tables, <b>A Table</b> offers many' +
+          ' interactions for example to navigate in the data, compare teams, and analyze the evolution of a team during the ' +
+          'whole championship.<br>The available interactions on the table are the following:<br>',
+      '<b>A Table</b> est un tableau interactif pour l\'exploration et l\'analyse des résultats d\'un championnat de football.<br>Afin de permettre d\'accomplir des tâches complexes que les tableaux actuels ne permettent pas, <b>A Table</b> dispose de nombreuses interactions afin de naviguer dans les données, comparer des équipes ou encore analyser l\'évolution d\'une équipe tout au long du championnat.<br>Les actions disponibles sur le tableau sont les suivantes:<br>',
+      null
+    ],
+    [
+      '<h4>Column sorting</h4>' +
+          '<b>Description:</b> As in Excel and other tables, it is possible to sort the table according to a column by clicking' +
+          ' on its header. A second click will sort the rows according to the same column, but the sorting will be reversed.<br>' +
+          '<br><b>To do what?</b> By sorting the rows according to each column, you can visualize ranks of the rows according to each column.',
+      '<h4>Ordonnancement selon une colonne</h4>' +
+          '<b>Description:</b> A l\'instar d\'Excel ou autres tableaux, il est possible de trier le tableau selon une colonne en' +
+          ' cliquant sur son en-tête. Un second clic ordonnera selon cette même colonne, mais dans l\'ordre inverse.<br>' +
+          '<br><b>Pour quoi faire ?</b> La possibilité de classer les lignes selon chaque colonne permet de visualiser les ' +
+          'classements des équipes selon chaque colonne.',
+      './img/tips/1.gif'
+    ],
+    [
+      '<h4>Navigation slider</h4>' +
+          '<b>Description:</b> With the slider you can set the current day of the table. When changing the current day, the ' +
+          'teams\' rows are animated to their new position.<br>' +
+          '<br><b>To do what?</b> The navigation slider allows to set the current day and then observe the different rankings ' +
+          'at each day. The rows\' animations make easy to follow the teams\' evolution from day to day, in particular when ' +
+          'teams have previously been selected.',
+      '<h4>Slider de navigation</h4>' +
+          '<b>Description:</b> Le slider est utilisé pour naviguer dans le temps et choisir la journée courante du tableau. ' +
+          'Quand la journée courante est modifiée, les lignes sont animées vers leurs nouvelles positions.<br>' +
+          '<br><b>Pour quoi faire ?</b> La navigation dans le temps permet de sélectionner la journée à observer et ainsi ' +
+          'd\'observer les différents classements à chaque journée. Les animations des lignes permettent de suivre l\'évolution ' +
+          'des équipes entre chaque journée, en particulier lorsqu\'elles ont été préalablement sélectionnées.',
+      './img/tips/2.gif'
+    ],
+    [
+      '<h4>Team selection</h4>' +
+          '<b>Description:</b> A click on a team\'s name will select this team and highlight its row in its color. A second ' +
+          'click will unselect the team. You can also select as many teams as you wish.<br>' +
+          '<br><b>To do what?</b> It is much more easier to visually follow a team in the table when it is highlighted. ' +
+          'If the table is sorted according to a new column, or if the current day is set to another one, it is easy to follow the selected teams.',
+      '<h4>Sélection d\'équipes</h4>' +
+          '<b>Description:</b> Un clic sur le nom d\'une équipe sélectionnera celle-ci et colorera la ligne correspondante. ' +
+          'Un second clic désélectionnera l\'équipe. Il est possible de sélectionner plusieurs équipes.<br>' +
+          '<br><b>Pour quoi faire ?</b> Il est bien plus facile de suivre une équipe dans le tableau lorsque celle-ci est ' +
+          'sélectionnée. Si le tableau est ordonné selon une nouvelle colonne, ou si la journée observée est changée, ' +
+          'le suivi visuel des équipes sélectionnées est rendu aisé.',
+      './img/tips/0.gif'
+    ],
+    [
+      '<h4>Cell value drag</h4>' +
+          '<b>Description:</b> You can drag up and down a value in a cell (by pressing the mouse and moving it up and ' +
+          'down without releasing the mouse button). Doing so, the value in the cell will change for the possible values it can take.<br>' +
+          'For each dragged value, a dark shadow thumb will be displayed on the slider, corresponding to the closest day when this value ' +
+          'is reached for the corresponding team and indicating the day which will be displayed if you release the mouse button. ' +
+          'Lighter shadow thumbs may also be displayed on the slider, corresponding to the other days when the value is reached.<br>' +
+          'Also, for each team an arrow will be displayed, indicating how the team will behave if you release the mouse button: the ' +
+          'arrow can be from down and red (the team is going down a lot) to up and green (the team is going up a lot).<br>' +
+          'When you release the mouse button, the new displayed day will be the one corresponding to the dark shadow on the slider and the rows will' +
+          'be animated to their new position.<br>' +
+          '<br><b>To do what?</b> This feature is very useful for instance to find the day when a team reached its highest number' +
+          'for the goal difference. Indeed, by dragging up the cell in the "GD" column of a team, the maximum value is reached' +
+          'and releasing the mouse button will make the table display the corresponding day. Or, if you want to find when a team did reach 42 points, ' +
+          'the only thing you have to do is to drag the cell in the "Pts" column until you obtain this value.<br>' +
+          'Note that not all the value are reachable, in particular for the columns where points are displayed, a win giving 3 points.',
+      '<h4>"Drag" de la valeur d\'une cellule</h4>' +
+          '<b>Description:</b> Vous pouvez "dragger" vers le haut et le bas une valeur dans une cellule (en maintenant appuyé le bouton de la souris et en déplaçant le curseur vers le haut ou le bas). ' +
+          '. La valeur dans la cellule change alors et prend comme valeur les différentes valeurs qu\'il lui est possible d\'atteindre.<br>' +
+          'Pour chaque valeur que prend la cellule, un rectangle fantôme foncé est affiché sur le slider, correspondant au jour le plus proche où cette valeur est atteinte ' +
+          'pour l\'équipe correspondante et indiquant la journée qui sera affichée si vous relâchez le bouton de la souris. ' +
+          'Des rectangles fantômes plus clairs peuvent aussi s\'afficher sur le slider, ils correspondent aux autres journées où la valeur est atteinte.<br>' +
+          'De plus, pour chaque équipe une flèche apparaît, indiquant l\'évolution du classement de l\'équipe si vous relâchez le bouton de la souris: la ' +
+          'flèche peut aller de "en bas et rouge" (l\'équipe perdra beaucoup de places au classement) à "en haut et verte" (l\'équipe gagnera beaucoup de places).<br>' +
+          'Quand vous relâchez le bouton de la souris, la journée affichée dans la table sera celle correspondant au fantôme foncé sur le slider et les lignes seront ' +
+          'animées vers leur nouvelle position.<br>' +
+          '<br><b>Pour quoi faire ?</b> Cette technique est par exemple très utile pour trouver le jour où une équipe a atteint sa plus grande différence de buts. ' +
+          'En effet, en "draggant" vers le haut la cellule dans la colonne "Diff" d\'une équipe, la valeur maximale qu\'elle peut prendre est atteinte' +
+          'et en relâchant le bouton de la souris le tableau affichera la journée correspondante. Ou, si vous voulez trouver quand une équipe a atteint 42 points, ' +
+          'la seule chose que vous ayiez à faire est de "dragger" la cellule dans la colonne "Pts" jusqu\'à obtenir cette valeur.<br>' +
+          'Notez que toutes les valeurs ne sont pas atteignables, en particulier pour les colonnes où les points sont affichés, une victoire donnant 3 points.',
+      './img/tips/3.gif'
+    ],
+    [
+      '<h4>Cell to line chart</h4>' +
+          '<b>Description:</b> If you click in a cell, the table will be transformed into a line chart after several animations. ' +
+          'In this line chart, the column you clicked on becomes the vertical axis and the horizontal axis is the same as the slider, i.e. the days.<br>' +
+          'If you selected teams beforehead, then each selected team will have its associated linechart displayed. Note that the team corresponding ' +
+          'to the cell you clicked in will automatically be selected as the main team in the line chart.<br>' +
+          'The main team has a larger stroke than other selected teams. Each selected team has two logos displayed on the chart: the first one ' +
+          'is static and stays at the day you clicked on the cell. The second one moves according to the mouse position. The value corresponding to each ' +
+          'selected team is displayed near the logo when you move the mouse.<br>' +
+          'You can add or remove selected teams by clicking on their name or logo at the very right of the chart.<br>' +
+          'When you move the mouse, the vertical gray line indicates the day you are hovering, and on the slider are displayed shadow thumbs indicating' +
+          'for which days the value of the main team (the one corresponding to the cell you clicked on) is equal to the value your mouse is hovering.' +
+          'A gray rectangle also indicates the range of days where the value is the same for the main team.<br>' +
+          'The last feature of the linechart is the ability to choose to visualize the charts corresponding to the values of the teams at each day, or the ones ' +
+          'corresponding to the ranking of the teams at each day, using the 2 options called "rank" and "value" in the top-right corner of the chart.<br>' +
+          'Finally, when clicking in the chart, the line chart will become the table, with the current day being the day you clicked on.' +
+          '<br><b>To do what?</b> The line chart is particularly useful to observe the variations of a team during the season. You can also for example see when two teams ' +
+          'exchange their position and how many times they did so. You can see when a team reached a certain amount of points, and you can see all the days where a team had a ' +
+          'certain rank, or how long they had a particular rank.',
+
+      '<h4>Cellule vers graphique</h4>' +
+          '<b>Description:</b> Si vous cliquez sur une cellule, le tableau se transforme en un graphique après plusieurs animations. ' +
+          'Dans ce graphique, la colonne sur laquelle vous avez cliqué devient l\'axe vertical et l\'axe horizontal est le même que celui du slider, c\'est à dire les journées du championnat.<br>' +
+          'Si vous avez sélectionné des équipes auparavant, chacune aura sa courbe affichée. Notez que l\'équipe correspondant ' +
+          'à la cellule dans laquelle vous avez cliqué sera automatiquement sélectionnée comme étant l\'équipe principale dans le graphique.<br>' +
+          'L\'équipe principale a une plus grosse épaisseur que les autres équipes sélectionnées. Chaque équipe sélectionnée a 2 logos affichés sur le graphique: le premier ' +
+          'est statique et reste à la position correspondant à la journée de la table lorsque vous avez cliqué dans la cellule. Le second se déplace selon la position de la souris. La valeur correspondant à chaque équipe ' +
+          'sélectionnée est affichée à côté du logo lorsque vous déplacez la souris.<br>' +
+          'Vous pouvez sélectionner ou désélectionner des équipes en cliquant sur leur nom ou leur logo tout à droite du graphique.<br>' +
+          'Quand vous déplacez la souris, la ligne grise verticale indique sur quelle journée le curseur est, et des "fantômes" sont affichés sur le slider ' +
+          'pour indiquer pour quelles journées la valeur de l\'équipe principale (celle correspondant à la cellule sur laquelle vous avez cliqué) est égale à la valeur de l\'équipe principale actuelle sous la souris.' +
+          'Un rectangle gris indique aussi l\'intervalle des journées pendant lesquelles la valeur est la même pour l\'équipe principale.<br>' +
+          'La dernière caractéristique du graphique est la possibilité de choisir de visualiser les courbes correspondant aux valeurs des équipes à chaque journée, ou bien celles ' +
+          'correspondant au classement des équipes à chaque journée, en utilisant les 2 options appelées "rank" et "value" dans le coin en haut à droite du graphique.<br>' +
+          'Finalement, lorsque vous cliquez dans le graphique, celui-ci redevient le tableau à la journée à laquelle vous avez cliqué.' +
+          '<br><b>Pour quoi faire ?</b> Le graphique est particulièrement utile pour observer les variations des équipes tout au long de la saison. Vous pouvez aussi par exemple voir quand deux équipes ' +
+          'échangent de position, et combien de fois cela s\'est produit. Vous pouvez voir quand une équipe a atteint un certain nombre de points, et voir facilement toutes les journées où une équipe a eu ' +
+          'un certain classement, ou encore pendant combien de journées elle a eu un classement particulier.',
+      './img/tips/4.gif'
+    ]
+  ];
+
+
+</script>

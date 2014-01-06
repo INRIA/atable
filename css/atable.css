@@ -1,0 +1,224 @@
+text:hover{
+    cursor:default;
+}
+
+div.language{
+  position:absolute;
+  top:0px;
+  left:630px;
+  width:60px;
+  height:22px;
+  border:1px solid black;
+}
+
+div.language img{
+  height:30px;
+  display: inline;
+  margin:3px;
+  border:2px solid black;
+}
+
+div.language img:hover{
+    cursor:pointer;
+}
+
+div.footer{
+    position: absolute;
+    top:620px;
+    left:20px;
+    text-align: center;
+    font-family: verdana, Times, serif;
+    font-size: 10px;
+}
+
+
+div.header{
+  position: absolute;
+  top:0px;
+  left:20px;
+  text-align: center;
+  font-family: verdana, Times, serif;
+  font-size: 10px;
+}
+
+div.header #chrome{
+  background-color: #EEEEEE;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#titlediv{
+    position: absolute;
+    top:31px;
+    left:200px;
+    text-align: center;
+    font-family: verdana, Times, serif;
+    font-size: 11px;
+}
+
+.widget-arrow-days {
+  text-decoration: none;
+}
+
+.ui-slider .ui-slider-handle { height: 100%;top:-1px }
+.ui-slider {width: 400px;max-height:20px;height:80%;top:0}
+
+#widget-slider-label{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cell rect.bkg{
+  stroke:black;
+  stroke-width:1px;
+  fill:white;
+}
+
+.cell.overed rect.bkg{
+    stroke-width:3px;
+    fill:lightgray;
+}
+
+.cell.selected rect.bkg{
+  stroke-width:3px;
+}
+
+.cell text.value{
+  fill:black;
+  text-anchor:middle;
+}
+
+.cell.dragged rect.bkg{
+    fill: lightblue;
+}
+
+.cell.dragged text{
+  fill:green;
+  text-decoration: underline;
+}
+
+.cell.invalid text{
+  fill:red;
+}
+
+.cell .shadow-arrow{
+    stroke:black;
+    stroke-width:1px;
+}
+
+
+.col-header rect, .row-header rect{
+  fill:lightgray;
+  stroke-width:1.5px;
+  stroke:black;
+}
+
+.col-header.sorted text{
+    font-weight:bold;
+}
+
+.col-header text{
+    fill:black;
+    text-anchor:middle;
+    font-weight:normal;
+}
+.col-header text:hover{
+    cursor:pointer;
+}
+
+.col-header .img-sort{
+    stroke: black;
+    stroke-width:1px;
+    fill: white;
+}
+
+.area-line{
+    stroke-width:3;
+    stroke: black;
+}
+
+
+
+
+/*
+Rules for embed barcharts
+*/
+.interactionLayer .bar rect{
+    fill: white;
+    stroke-width: .5;
+    stroke: none;
+    fill-opacity: .5;
+}
+
+.interactionLayer .bar.overed rect{
+    stroke-width: .5;
+    stroke: black;
+    fill-opacity: 1;
+}
+.interactionLayer .bar.lost rect{
+    fill: #D7191C;
+}
+.interactionLayer .bar.won rect{
+    fill: #ABDDA4;
+}
+.interactionLayer .bar.draw rect{
+    fill: #FFFF99;;
+}
+
+
+.interactionLayer .bar line{
+    stroke-width: .5;
+    stroke: black;
+}
+
+.interactionLayer .bar.positive line{
+    stroke: green;
+}
+.interactionLayer .bar.negative line{
+    stroke: #D7191C;
+}
+
+
+
+
+
+/*
+Rules for table slider
+*/
+.slider-bar{
+  stroke: black;
+  stroke-width:1px;
+  fill: black;
+  fill-opacity: .1;
+}
+
+
+
+/*
+For linegraph
+*/
+.teamname-line{
+  font-size: 9px;
+}
+
+.modes_selected{
+  fill:red;
+}
+
+.pathLines.dashed{
+  stroke-dasharray: 5,5;
+}
+
+.day-area{
+    stroke: none;
+    stroke-width: 0;
+    fill: #EEEEEE;
+}
+
+.visuModes_text{
+    font-size:14px;
+}
+
+.visuModes_text:hover{
+    font-weight:bold;
+}

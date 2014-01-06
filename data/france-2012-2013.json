@@ -1,0 +1,3422 @@
+[
+ {
+  "id": 0,
+  "teamAway": "Toulouse",
+  "goalsAway": "1",
+  "teamHome": "Montpellier",
+  "day": 1,
+  "date": "10/08/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 1,
+  "teamAway": "Bordeaux",
+  "goalsAway": "3",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 1,
+  "date": "11/08/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 2,
+  "teamAway": "Brest",
+  "goalsAway": "0",
+  "teamHome": "Nancy",
+  "day": 1,
+  "date": "11/08/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 3,
+  "teamAway": "Ajaccio",
+  "goalsAway": "1",
+  "teamHome": "Nice",
+  "day": 1,
+  "date": "11/08/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 4,
+  "teamAway": "Lorient",
+  "goalsAway": "2",
+  "teamHome": "Paris SG",
+  "day": 1,
+  "date": "11/08/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 5,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "Rennes",
+  "day": 1,
+  "date": "11/08/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 6,
+  "teamAway": "Bastia",
+  "goalsAway": "3",
+  "teamHome": "Sochaux",
+  "day": 1,
+  "date": "11/08/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 7,
+  "teamAway": "Lille",
+  "goalsAway": "2",
+  "teamHome": "St Etienne",
+  "day": 1,
+  "date": "11/08/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 8,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Troyes",
+  "day": 1,
+  "date": "11/08/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 9,
+  "teamAway": "Marseille",
+  "goalsAway": "1",
+  "teamHome": "Reims",
+  "day": 1,
+  "date": "12/08/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 10,
+  "teamAway": "Nancy",
+  "goalsAway": "1",
+  "teamHome": "Lille",
+  "day": 2,
+  "date": "17/08/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 11,
+  "teamAway": "Reims",
+  "goalsAway": "1",
+  "teamHome": "Bastia",
+  "day": 2,
+  "date": "18/08/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 12,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "0",
+  "teamHome": "Brest",
+  "day": 2,
+  "date": "18/08/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 13,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "Lorient",
+  "day": 2,
+  "date": "18/08/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 14,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Lyon",
+  "day": 2,
+  "date": "18/08/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 15,
+  "teamAway": "St Etienne",
+  "goalsAway": "1",
+  "teamHome": "Toulouse",
+  "day": 2,
+  "date": "18/08/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 16,
+  "teamAway": "Nice",
+  "goalsAway": "0",
+  "teamHome": "Valenciennes",
+  "day": 2,
+  "date": "18/08/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 17,
+  "teamAway": "Paris SG",
+  "goalsAway": "0",
+  "teamHome": "Ajaccio",
+  "day": 2,
+  "date": "19/08/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 18,
+  "teamAway": "Rennes",
+  "goalsAway": "0",
+  "teamHome": "Bordeaux",
+  "day": 2,
+  "date": "19/08/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 19,
+  "teamAway": "Sochaux",
+  "goalsAway": "0",
+  "teamHome": "Marseille",
+  "day": 2,
+  "date": "19/08/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 20,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 3,
+  "date": "24/08/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 21,
+  "teamAway": "Toulouse",
+  "goalsAway": "1",
+  "teamHome": "Nancy",
+  "day": 3,
+  "date": "25/08/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 22,
+  "teamAway": "Lille",
+  "goalsAway": "2",
+  "teamHome": "Nice",
+  "day": 3,
+  "date": "25/08/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 23,
+  "teamAway": "Sochaux",
+  "goalsAway": "0",
+  "teamHome": "Reims",
+  "day": 3,
+  "date": "25/08/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 24,
+  "teamAway": "Bastia",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 3,
+  "date": "25/08/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 25,
+  "teamAway": "Lorient",
+  "goalsAway": "2",
+  "teamHome": "Troyes",
+  "day": 3,
+  "date": "25/08/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 26,
+  "teamAway": "Ajaccio",
+  "goalsAway": "0",
+  "teamHome": "Valenciennes",
+  "day": 3,
+  "date": "25/08/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 27,
+  "teamAway": "Marseille",
+  "goalsAway": "1",
+  "teamHome": "Montpellier",
+  "day": 3,
+  "date": "26/08/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 28,
+  "teamAway": "Bordeaux",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 3,
+  "date": "26/08/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 29,
+  "teamAway": "Brest",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 3,
+  "date": "26/08/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 30,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "0",
+  "teamHome": "Ajaccio",
+  "day": 4,
+  "date": "01/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 31,
+  "teamAway": "St Etienne",
+  "goalsAway": "3",
+  "teamHome": "Bastia",
+  "day": 4,
+  "date": "01/09/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 32,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Brest",
+  "day": 4,
+  "date": "01/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 33,
+  "teamAway": "Nancy",
+  "goalsAway": "0",
+  "teamHome": "Lorient",
+  "day": 4,
+  "date": "01/09/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 34,
+  "teamAway": "Valenciennes",
+  "goalsAway": "2",
+  "teamHome": "Lyon",
+  "day": 4,
+  "date": "01/09/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 35,
+  "teamAway": "Montpellier",
+  "goalsAway": "3",
+  "teamHome": "Sochaux",
+  "day": 4,
+  "date": "01/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 36,
+  "teamAway": "Reims",
+  "goalsAway": "1",
+  "teamHome": "Toulouse",
+  "day": 4,
+  "date": "01/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 37,
+  "teamAway": "Nice",
+  "goalsAway": "1",
+  "teamHome": "Bordeaux",
+  "day": 4,
+  "date": "02/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 38,
+  "teamAway": "Paris SG",
+  "goalsAway": "2",
+  "teamHome": "Lille",
+  "day": 4,
+  "date": "02/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 39,
+  "teamAway": "Rennes",
+  "goalsAway": "1",
+  "teamHome": "Marseille",
+  "day": 4,
+  "date": "02/09/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 40,
+  "teamAway": "Toulouse",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 5,
+  "date": "14/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 41,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "Reims",
+  "day": 5,
+  "date": "14/09/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 42,
+  "teamAway": "Bastia",
+  "goalsAway": "0",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 5,
+  "date": "15/09/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 43,
+  "teamAway": "Brest",
+  "goalsAway": "2",
+  "teamHome": "Nice",
+  "day": 5,
+  "date": "15/09/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 44,
+  "teamAway": "Sochaux",
+  "goalsAway": "1",
+  "teamHome": "St Etienne",
+  "day": 5,
+  "date": "15/09/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 45,
+  "teamAway": "Lille",
+  "goalsAway": "1",
+  "teamHome": "Troyes",
+  "day": 5,
+  "date": "15/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 46,
+  "teamAway": "Bordeaux",
+  "goalsAway": "0",
+  "teamHome": "Valenciennes",
+  "day": 5,
+  "date": "15/09/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 47,
+  "teamAway": "Ajaccio",
+  "goalsAway": "0",
+  "teamHome": "Lyon",
+  "day": 5,
+  "date": "16/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 48,
+  "teamAway": "Marseille",
+  "goalsAway": "1",
+  "teamHome": "Nancy",
+  "day": 5,
+  "date": "16/09/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 49,
+  "teamAway": "Lorient",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 5,
+  "date": "16/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 50,
+  "teamAway": "St Etienne",
+  "goalsAway": "1",
+  "teamHome": "Montpellier",
+  "day": 6,
+  "date": "21/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 51,
+  "teamAway": "Paris SG",
+  "goalsAway": "4",
+  "teamHome": "Bastia",
+  "day": 6,
+  "date": "22/09/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 52,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Brest",
+  "day": 6,
+  "date": "22/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 53,
+  "teamAway": "Nice",
+  "goalsAway": "1",
+  "teamHome": "Lorient",
+  "day": 6,
+  "date": "22/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 54,
+  "teamAway": "Nancy",
+  "goalsAway": "0",
+  "teamHome": "Reims",
+  "day": 6,
+  "date": "22/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 55,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Sochaux",
+  "day": 6,
+  "date": "22/09/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 56,
+  "teamAway": "Rennes",
+  "goalsAway": "2",
+  "teamHome": "Toulouse",
+  "day": 6,
+  "date": "22/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 57,
+  "teamAway": "Ajaccio",
+  "goalsAway": "2",
+  "teamHome": "Bordeaux",
+  "day": 6,
+  "date": "23/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 58,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "Lille",
+  "day": 6,
+  "date": "23/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 59,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "0",
+  "teamHome": "Marseille",
+  "day": 6,
+  "date": "23/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 60,
+  "teamAway": "Lille",
+  "goalsAway": "0",
+  "teamHome": "Rennes",
+  "day": 7,
+  "date": "28/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 61,
+  "teamAway": "Brest",
+  "goalsAway": "0",
+  "teamHome": "Ajaccio",
+  "day": 7,
+  "date": "29/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 62,
+  "teamAway": "Lorient",
+  "goalsAway": "1",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 7,
+  "date": "29/09/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 63,
+  "teamAway": "Montpellier",
+  "goalsAway": "2",
+  "teamHome": "Nancy",
+  "day": 7,
+  "date": "29/09/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 64,
+  "teamAway": "Bastia",
+  "goalsAway": "2",
+  "teamHome": "Nice",
+  "day": 7,
+  "date": "29/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 65,
+  "teamAway": "Sochaux",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 7,
+  "date": "29/09/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 66,
+  "teamAway": "Toulouse",
+  "goalsAway": "2",
+  "teamHome": "Troyes",
+  "day": 7,
+  "date": "29/09/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 67,
+  "teamAway": "Bordeaux",
+  "goalsAway": "2",
+  "teamHome": "Lyon",
+  "day": 7,
+  "date": "30/09/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 68,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 7,
+  "date": "30/09/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 69,
+  "teamAway": "Marseille",
+  "goalsAway": "1",
+  "teamHome": "Valenciennes",
+  "day": 7,
+  "date": "30/09/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 70,
+  "teamAway": "Nancy",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 8,
+  "date": "05/10/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 71,
+  "teamAway": "Troyes",
+  "goalsAway": "2",
+  "teamHome": "Bastia",
+  "day": 8,
+  "date": "06/10/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 72,
+  "teamAway": "Ajaccio",
+  "goalsAway": "0",
+  "teamHome": "Lille",
+  "day": 8,
+  "date": "06/10/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 73,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "3",
+  "teamHome": "Montpellier",
+  "day": 8,
+  "date": "06/10/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 74,
+  "teamAway": "Nice",
+  "goalsAway": "1",
+  "teamHome": "Reims",
+  "day": 8,
+  "date": "06/10/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 75,
+  "teamAway": "Rennes",
+  "goalsAway": "1",
+  "teamHome": "Sochaux",
+  "day": 8,
+  "date": "06/10/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 76,
+  "teamAway": "Valenciennes",
+  "goalsAway": "2",
+  "teamHome": "Toulouse",
+  "day": 8,
+  "date": "06/10/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 77,
+  "teamAway": "Bordeaux",
+  "goalsAway": "1",
+  "teamHome": "Brest",
+  "day": 8,
+  "date": "07/10/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 78,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "Lorient",
+  "day": 8,
+  "date": "07/10/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 79,
+  "teamAway": "Paris SG",
+  "goalsAway": "2",
+  "teamHome": "Marseille",
+  "day": 8,
+  "date": "07/10/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 80,
+  "teamAway": "Lille",
+  "goalsAway": "1",
+  "teamHome": "Bordeaux",
+  "day": 9,
+  "date": "19/10/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 81,
+  "teamAway": "Toulouse",
+  "goalsAway": "4",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 9,
+  "date": "20/10/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 82,
+  "teamAway": "Sochaux",
+  "goalsAway": "1",
+  "teamHome": "Nancy",
+  "day": 9,
+  "date": "20/10/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 83,
+  "teamAway": "St Etienne",
+  "goalsAway": "1",
+  "teamHome": "Nice",
+  "day": 9,
+  "date": "20/10/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 84,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 9,
+  "date": "20/10/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 85,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "Rennes",
+  "day": 9,
+  "date": "20/10/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 86,
+  "teamAway": "Lorient",
+  "goalsAway": "1",
+  "teamHome": "Valenciennes",
+  "day": 9,
+  "date": "20/10/12",
+  "goalsHome": "6"
+ },
+ {
+  "id": 87,
+  "teamAway": "Bastia",
+  "goalsAway": "0",
+  "teamHome": "Ajaccio",
+  "day": 9,
+  "date": "21/10/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 88,
+  "teamAway": "Brest",
+  "goalsAway": "0",
+  "teamHome": "Lyon",
+  "day": 9,
+  "date": "21/10/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 89,
+  "teamAway": "Marseille",
+  "goalsAway": "0",
+  "teamHome": "Troyes",
+  "day": 9,
+  "date": "21/10/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 90,
+  "teamAway": "Rennes",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 10,
+  "date": "26/10/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 91,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Lille",
+  "day": 10,
+  "date": "27/10/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 92,
+  "teamAway": "Nice",
+  "goalsAway": "1",
+  "teamHome": "Montpellier",
+  "day": 10,
+  "date": "27/10/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 93,
+  "teamAway": "Paris SG",
+  "goalsAway": "1",
+  "teamHome": "Nancy",
+  "day": 10,
+  "date": "27/10/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 94,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Reims",
+  "day": 10,
+  "date": "27/10/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 95,
+  "teamAway": "Brest",
+  "goalsAway": "1",
+  "teamHome": "Toulouse",
+  "day": 10,
+  "date": "27/10/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 96,
+  "teamAway": "Bordeaux",
+  "goalsAway": "1",
+  "teamHome": "Bastia",
+  "day": 10,
+  "date": "28/10/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 97,
+  "teamAway": "Ajaccio",
+  "goalsAway": "4",
+  "teamHome": "Lorient",
+  "day": 10,
+  "date": "28/10/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 98,
+  "teamAway": "Lorient",
+  "goalsAway": "0",
+  "teamHome": "Brest",
+  "day": 11,
+  "date": "02/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 99,
+  "teamAway": "Lille",
+  "goalsAway": "2",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 11,
+  "date": "03/11/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 100,
+  "teamAway": "Nancy",
+  "goalsAway": "1",
+  "teamHome": "Nice",
+  "day": 11,
+  "date": "03/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 101,
+  "teamAway": "St Etienne",
+  "goalsAway": "2",
+  "teamHome": "Paris SG",
+  "day": 11,
+  "date": "03/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 102,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Rennes",
+  "day": 11,
+  "date": "03/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 103,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "Troyes",
+  "day": 11,
+  "date": "03/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 104,
+  "teamAway": "Sochaux",
+  "goalsAway": "1",
+  "teamHome": "Valenciennes",
+  "day": 11,
+  "date": "03/11/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 105,
+  "teamAway": "Marseille",
+  "goalsAway": "2",
+  "teamHome": "Ajaccio",
+  "day": 11,
+  "date": "04/11/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 106,
+  "teamAway": "Toulouse",
+  "goalsAway": "0",
+  "teamHome": "Bordeaux",
+  "day": 11,
+  "date": "04/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 107,
+  "teamAway": "Bastia",
+  "goalsAway": "2",
+  "teamHome": "Lyon",
+  "day": 11,
+  "date": "04/11/12",
+  "goalsHome": "5"
+ },
+ {
+  "id": 108,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "1",
+  "teamHome": "Sochaux",
+  "day": 10,
+  "date": "07/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 109,
+  "teamAway": "Rennes",
+  "goalsAway": "3",
+  "teamHome": "Nancy",
+  "day": 12,
+  "date": "09/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 110,
+  "teamAway": "Valenciennes",
+  "goalsAway": "3",
+  "teamHome": "Bastia",
+  "day": 12,
+  "date": "10/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 111,
+  "teamAway": "Brest",
+  "goalsAway": "0",
+  "teamHome": "Lille",
+  "day": 12,
+  "date": "10/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 112,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "2",
+  "teamHome": "Reims",
+  "day": 12,
+  "date": "10/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 113,
+  "teamAway": "Troyes",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 12,
+  "date": "10/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 114,
+  "teamAway": "Ajaccio",
+  "goalsAway": "4",
+  "teamHome": "Toulouse",
+  "day": 12,
+  "date": "10/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 115,
+  "teamAway": "Bordeaux",
+  "goalsAway": "4",
+  "teamHome": "Lorient",
+  "day": 12,
+  "date": "11/11/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 116,
+  "teamAway": "Nice",
+  "goalsAway": "2",
+  "teamHome": "Marseille",
+  "day": 12,
+  "date": "11/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 117,
+  "teamAway": "Paris SG",
+  "goalsAway": "1",
+  "teamHome": "Montpellier",
+  "day": 12,
+  "date": "11/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 118,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "Sochaux",
+  "day": 12,
+  "date": "11/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 119,
+  "teamAway": "Lille",
+  "goalsAway": "0",
+  "teamHome": "Lorient",
+  "day": 13,
+  "date": "16/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 120,
+  "teamAway": "Sochaux",
+  "goalsAway": "1",
+  "teamHome": "Ajaccio",
+  "day": 13,
+  "date": "17/11/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 121,
+  "teamAway": "Bastia",
+  "goalsAway": "0",
+  "teamHome": "Brest",
+  "day": 13,
+  "date": "17/11/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 122,
+  "teamAway": "St Etienne",
+  "goalsAway": "2",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 13,
+  "date": "17/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 123,
+  "teamAway": "Rennes",
+  "goalsAway": "2",
+  "teamHome": "Paris SG",
+  "day": 13,
+  "date": "17/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 124,
+  "teamAway": "Nancy",
+  "goalsAway": "3",
+  "teamHome": "Troyes",
+  "day": 13,
+  "date": "17/11/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 125,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "Valenciennes",
+  "day": 13,
+  "date": "17/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 126,
+  "teamAway": "Marseille",
+  "goalsAway": "0",
+  "teamHome": "Bordeaux",
+  "day": 13,
+  "date": "18/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 127,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Lyon",
+  "day": 13,
+  "date": "18/11/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 128,
+  "teamAway": "Toulouse",
+  "goalsAway": "0",
+  "teamHome": "Nice",
+  "day": 13,
+  "date": "18/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 129,
+  "teamAway": "Valenciennes",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 14,
+  "date": "23/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 130,
+  "teamAway": "Lorient",
+  "goalsAway": "1",
+  "teamHome": "Bastia",
+  "day": 14,
+  "date": "24/11/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 131,
+  "teamAway": "Ajaccio",
+  "goalsAway": "1",
+  "teamHome": "Nancy",
+  "day": 14,
+  "date": "24/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 132,
+  "teamAway": "Troyes",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 14,
+  "date": "24/11/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 133,
+  "teamAway": "Brest",
+  "goalsAway": "0",
+  "teamHome": "Reims",
+  "day": 14,
+  "date": "24/11/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 134,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "1",
+  "teamHome": "Rennes",
+  "day": 14,
+  "date": "24/11/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 135,
+  "teamAway": "Nice",
+  "goalsAway": "1",
+  "teamHome": "Sochaux",
+  "day": 14,
+  "date": "24/11/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 136,
+  "teamAway": "Lille",
+  "goalsAway": "0",
+  "teamHome": "Marseille",
+  "day": 14,
+  "date": "25/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 137,
+  "teamAway": "Bordeaux",
+  "goalsAway": "0",
+  "teamHome": "Montpellier",
+  "day": 14,
+  "date": "25/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 138,
+  "teamAway": "Lyon",
+  "goalsAway": "0",
+  "teamHome": "Toulouse",
+  "day": 14,
+  "date": "25/11/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 139,
+  "teamAway": "Lyon",
+  "goalsAway": "4",
+  "teamHome": "Marseille",
+  "day": 10,
+  "date": "28/11/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 140,
+  "teamAway": "St Etienne",
+  "goalsAway": "0",
+  "teamHome": "Ajaccio",
+  "day": 15,
+  "date": "30/11/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 141,
+  "teamAway": "Sochaux",
+  "goalsAway": "2",
+  "teamHome": "Bordeaux",
+  "day": 15,
+  "date": "01/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 142,
+  "teamAway": "Nancy",
+  "goalsAway": "1",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 15,
+  "date": "01/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 143,
+  "teamAway": "Bastia",
+  "goalsAway": "0",
+  "teamHome": "Lille",
+  "day": 15,
+  "date": "01/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 144,
+  "teamAway": "Montpellier",
+  "goalsAway": "0",
+  "teamHome": "Lyon",
+  "day": 15,
+  "date": "01/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 145,
+  "teamAway": "Paris SG",
+  "goalsAway": "1",
+  "teamHome": "Nice",
+  "day": 15,
+  "date": "01/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 146,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Valenciennes",
+  "day": 15,
+  "date": "01/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 147,
+  "teamAway": "Marseille",
+  "goalsAway": "2",
+  "teamHome": "Brest",
+  "day": 15,
+  "date": "02/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 148,
+  "teamAway": "Toulouse",
+  "goalsAway": "0",
+  "teamHome": "Lorient",
+  "day": 15,
+  "date": "02/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 149,
+  "teamAway": "Rennes",
+  "goalsAway": "3",
+  "teamHome": "Troyes",
+  "day": 15,
+  "date": "02/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 150,
+  "teamAway": "Bastia",
+  "goalsAway": "0",
+  "teamHome": "Toulouse",
+  "day": 16,
+  "date": "07/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 151,
+  "teamAway": "Ajaccio",
+  "goalsAway": "0",
+  "teamHome": "Montpellier",
+  "day": 16,
+  "date": "08/12/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 152,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Nancy",
+  "day": 16,
+  "date": "08/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 153,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 16,
+  "date": "08/12/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 154,
+  "teamAway": "Brest",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 16,
+  "date": "08/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 155,
+  "teamAway": "Lille",
+  "goalsAway": "1",
+  "teamHome": "Sochaux",
+  "day": 16,
+  "date": "08/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 156,
+  "teamAway": "Nice",
+  "goalsAway": "1",
+  "teamHome": "Troyes",
+  "day": 16,
+  "date": "08/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 157,
+  "teamAway": "Lorient",
+  "goalsAway": "3",
+  "teamHome": "Marseille",
+  "day": 16,
+  "date": "09/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 158,
+  "teamAway": "Bordeaux",
+  "goalsAway": "0",
+  "teamHome": "Reims",
+  "day": 16,
+  "date": "09/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 159,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "St Etienne",
+  "day": 16,
+  "date": "09/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 160,
+  "teamAway": "Toulouse",
+  "goalsAway": "0",
+  "teamHome": "Lille",
+  "day": 17,
+  "date": "11/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 161,
+  "teamAway": "Rennes",
+  "goalsAway": "0",
+  "teamHome": "Nice",
+  "day": 17,
+  "date": "11/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 162,
+  "teamAway": "Paris SG",
+  "goalsAway": "4",
+  "teamHome": "Valenciennes",
+  "day": 17,
+  "date": "11/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 163,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Ajaccio",
+  "day": 17,
+  "date": "12/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 164,
+  "teamAway": "Marseille",
+  "goalsAway": "2",
+  "teamHome": "Bastia",
+  "day": 17,
+  "date": "12/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 165,
+  "teamAway": "Montpellier",
+  "goalsAway": "2",
+  "teamHome": "Brest",
+  "day": 17,
+  "date": "12/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 166,
+  "teamAway": "Troyes",
+  "goalsAway": "0",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 17,
+  "date": "12/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 167,
+  "teamAway": "Sochaux",
+  "goalsAway": "0",
+  "teamHome": "Lorient",
+  "day": 17,
+  "date": "12/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 168,
+  "teamAway": "Nancy",
+  "goalsAway": "1",
+  "teamHome": "Lyon",
+  "day": 17,
+  "date": "12/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 169,
+  "teamAway": "St Etienne",
+  "goalsAway": "0",
+  "teamHome": "Bordeaux",
+  "day": 17,
+  "date": "13/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 170,
+  "teamAway": "Valenciennes",
+  "goalsAway": "0",
+  "teamHome": "Rennes",
+  "day": 18,
+  "date": "14/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 171,
+  "teamAway": "Bastia",
+  "goalsAway": "0",
+  "teamHome": "Montpellier",
+  "day": 18,
+  "date": "15/12/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 172,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "2",
+  "teamHome": "Nice",
+  "day": 18,
+  "date": "15/12/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 173,
+  "teamAway": "Lille",
+  "goalsAway": "1",
+  "teamHome": "Reims",
+  "day": 18,
+  "date": "15/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 174,
+  "teamAway": "Brest",
+  "goalsAway": "2",
+  "teamHome": "Sochaux",
+  "day": 18,
+  "date": "15/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 175,
+  "teamAway": "Marseille",
+  "goalsAway": "1",
+  "teamHome": "Toulouse",
+  "day": 18,
+  "date": "15/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 176,
+  "teamAway": "Ajaccio",
+  "goalsAway": "2",
+  "teamHome": "Troyes",
+  "day": 18,
+  "date": "15/12/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 177,
+  "teamAway": "Bordeaux",
+  "goalsAway": "1",
+  "teamHome": "Nancy",
+  "day": 18,
+  "date": "16/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 178,
+  "teamAway": "Lyon",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 18,
+  "date": "16/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 179,
+  "teamAway": "Lorient",
+  "goalsAway": "2",
+  "teamHome": "St Etienne",
+  "day": 18,
+  "date": "16/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 180,
+  "teamAway": "Paris SG",
+  "goalsAway": "3",
+  "teamHome": "Brest",
+  "day": 19,
+  "date": "21/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 181,
+  "teamAway": "Rennes",
+  "goalsAway": "4",
+  "teamHome": "Ajaccio",
+  "day": 19,
+  "date": "22/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 182,
+  "teamAway": "Nancy",
+  "goalsAway": "2",
+  "teamHome": "Bastia",
+  "day": 19,
+  "date": "22/12/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 183,
+  "teamAway": "Troyes",
+  "goalsAway": "0",
+  "teamHome": "Bordeaux",
+  "day": 19,
+  "date": "22/12/12",
+  "goalsHome": "0"
+ },
+ {
+  "id": 184,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "Lille",
+  "day": 19,
+  "date": "22/12/12",
+  "goalsHome": "4"
+ },
+ {
+  "id": 185,
+  "teamAway": "Reims",
+  "goalsAway": "2",
+  "teamHome": "Lorient",
+  "day": 19,
+  "date": "22/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 186,
+  "teamAway": "Nice",
+  "goalsAway": "0",
+  "teamHome": "Lyon",
+  "day": 19,
+  "date": "22/12/12",
+  "goalsHome": "3"
+ },
+ {
+  "id": 187,
+  "teamAway": "St Etienne",
+  "goalsAway": "0",
+  "teamHome": "Marseille",
+  "day": 19,
+  "date": "23/12/12",
+  "goalsHome": "1"
+ },
+ {
+  "id": 188,
+  "teamAway": "Sochaux",
+  "goalsAway": "0",
+  "teamHome": "Toulouse",
+  "day": 19,
+  "date": "23/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 189,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "1",
+  "teamHome": "Valenciennes",
+  "day": 19,
+  "date": "23/12/12",
+  "goalsHome": "2"
+ },
+ {
+  "id": 190,
+  "teamAway": "Ajaccio",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 20,
+  "date": "11/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 191,
+  "teamAway": "Toulouse",
+  "goalsAway": "2",
+  "teamHome": "St Etienne",
+  "day": 20,
+  "date": "11/01/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 192,
+  "teamAway": "Brest",
+  "goalsAway": "2",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 20,
+  "date": "12/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 193,
+  "teamAway": "Lorient",
+  "goalsAway": "0",
+  "teamHome": "Montpellier",
+  "day": 20,
+  "date": "12/01/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 194,
+  "teamAway": "Lille",
+  "goalsAway": "2",
+  "teamHome": "Nancy",
+  "day": 20,
+  "date": "12/01/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 195,
+  "teamAway": "Bordeaux",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 20,
+  "date": "12/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 196,
+  "teamAway": "Lyon",
+  "goalsAway": "2",
+  "teamHome": "Troyes",
+  "day": 20,
+  "date": "12/01/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 197,
+  "teamAway": "Valenciennes",
+  "goalsAway": "0",
+  "teamHome": "Nice",
+  "day": 20,
+  "date": "13/01/13",
+  "goalsHome": "5"
+ },
+ {
+  "id": 198,
+  "teamAway": "Bastia",
+  "goalsAway": "2",
+  "teamHome": "Reims",
+  "day": 20,
+  "date": "13/01/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 199,
+  "teamAway": "Marseille",
+  "goalsAway": "1",
+  "teamHome": "Sochaux",
+  "day": 20,
+  "date": "13/01/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 200,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "0",
+  "teamHome": "Lyon",
+  "day": 21,
+  "date": "18/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 201,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Ajaccio",
+  "day": 21,
+  "date": "19/01/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 202,
+  "teamAway": "St Etienne",
+  "goalsAway": "1",
+  "teamHome": "Brest",
+  "day": 21,
+  "date": "19/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 203,
+  "teamAway": "Troyes",
+  "goalsAway": "2",
+  "teamHome": "Lorient",
+  "day": 21,
+  "date": "19/01/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 204,
+  "teamAway": "Montpellier",
+  "goalsAway": "2",
+  "teamHome": "Marseille",
+  "day": 21,
+  "date": "19/01/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 205,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Sochaux",
+  "day": 21,
+  "date": "19/01/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 206,
+  "teamAway": "Nancy",
+  "goalsAway": "1",
+  "teamHome": "Toulouse",
+  "day": 21,
+  "date": "19/01/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 207,
+  "teamAway": "Rennes",
+  "goalsAway": "2",
+  "teamHome": "Bastia",
+  "day": 21,
+  "date": "20/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 208,
+  "teamAway": "Paris SG",
+  "goalsAway": "1",
+  "teamHome": "Bordeaux",
+  "day": 21,
+  "date": "20/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 209,
+  "teamAway": "Nice",
+  "goalsAway": "2",
+  "teamHome": "Lille",
+  "day": 21,
+  "date": "20/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 210,
+  "teamAway": "Lyon",
+  "goalsAway": "2",
+  "teamHome": "Valenciennes",
+  "day": 22,
+  "date": "25/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 211,
+  "teamAway": "Ajaccio",
+  "goalsAway": "1",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 22,
+  "date": "26/01/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 212,
+  "teamAway": "Sochaux",
+  "goalsAway": "0",
+  "teamHome": "Montpellier",
+  "day": 22,
+  "date": "26/01/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 213,
+  "teamAway": "Lorient",
+  "goalsAway": "1",
+  "teamHome": "Nancy",
+  "day": 22,
+  "date": "26/01/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 214,
+  "teamAway": "Toulouse",
+  "goalsAway": "1",
+  "teamHome": "Reims",
+  "day": 22,
+  "date": "26/01/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 215,
+  "teamAway": "Marseille",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 22,
+  "date": "26/01/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 216,
+  "teamAway": "Brest",
+  "goalsAway": "1",
+  "teamHome": "Troyes",
+  "day": 22,
+  "date": "26/01/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 217,
+  "teamAway": "Bordeaux",
+  "goalsAway": "1",
+  "teamHome": "Nice",
+  "day": 22,
+  "date": "27/01/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 218,
+  "teamAway": "Lille",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 22,
+  "date": "27/01/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 219,
+  "teamAway": "Bastia",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 22,
+  "date": "27/01/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 220,
+  "teamAway": "Paris SG",
+  "goalsAway": "4",
+  "teamHome": "Toulouse",
+  "day": 23,
+  "date": "01/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 221,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "0",
+  "teamHome": "Bastia",
+  "day": 23,
+  "date": "02/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 222,
+  "teamAway": "Valenciennes",
+  "goalsAway": "0",
+  "teamHome": "Bordeaux",
+  "day": 23,
+  "date": "02/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 223,
+  "teamAway": "Nice",
+  "goalsAway": "2",
+  "teamHome": "Brest",
+  "day": 23,
+  "date": "02/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 224,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Lille",
+  "day": 23,
+  "date": "02/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 225,
+  "teamAway": "Rennes",
+  "goalsAway": "2",
+  "teamHome": "Lorient",
+  "day": 23,
+  "date": "02/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 226,
+  "teamAway": "St Etienne",
+  "goalsAway": "2",
+  "teamHome": "Sochaux",
+  "day": 23,
+  "date": "02/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 227,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "Ajaccio",
+  "day": 23,
+  "date": "03/02/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 228,
+  "teamAway": "Nancy",
+  "goalsAway": "1",
+  "teamHome": "Marseille",
+  "day": 23,
+  "date": "03/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 229,
+  "teamAway": "Reims",
+  "goalsAway": "1",
+  "teamHome": "Montpellier",
+  "day": 23,
+  "date": "03/02/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 230,
+  "teamAway": "Bastia",
+  "goalsAway": "1",
+  "teamHome": "Paris SG",
+  "day": 24,
+  "date": "08/02/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 231,
+  "teamAway": "Bordeaux",
+  "goalsAway": "0",
+  "teamHome": "Ajaccio",
+  "day": 24,
+  "date": "09/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 232,
+  "teamAway": "Reims",
+  "goalsAway": "2",
+  "teamHome": "Nancy",
+  "day": 24,
+  "date": "09/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 233,
+  "teamAway": "Lorient",
+  "goalsAway": "1",
+  "teamHome": "Nice",
+  "day": 24,
+  "date": "09/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 234,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "St Etienne",
+  "day": 24,
+  "date": "09/02/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 235,
+  "teamAway": "Sochaux",
+  "goalsAway": "0",
+  "teamHome": "Troyes",
+  "day": 24,
+  "date": "09/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 236,
+  "teamAway": "Brest",
+  "goalsAway": "1",
+  "teamHome": "Valenciennes",
+  "day": 24,
+  "date": "09/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 237,
+  "teamAway": "Marseille",
+  "goalsAway": "1",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 24,
+  "date": "10/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 238,
+  "teamAway": "Lille",
+  "goalsAway": "3",
+  "teamHome": "Lyon",
+  "day": 24,
+  "date": "10/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 239,
+  "teamAway": "Toulouse",
+  "goalsAway": "0",
+  "teamHome": "Rennes",
+  "day": 24,
+  "date": "10/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 240,
+  "teamAway": "Rennes",
+  "goalsAway": "0",
+  "teamHome": "Lille",
+  "day": 25,
+  "date": "15/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 241,
+  "teamAway": "Nice",
+  "goalsAway": "1",
+  "teamHome": "Bastia",
+  "day": 25,
+  "date": "16/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 242,
+  "teamAway": "Ajaccio",
+  "goalsAway": "1",
+  "teamHome": "Brest",
+  "day": 25,
+  "date": "16/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 243,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "1",
+  "teamHome": "Lorient",
+  "day": 25,
+  "date": "16/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 244,
+  "teamAway": "Valenciennes",
+  "goalsAway": "0",
+  "teamHome": "Marseille",
+  "day": 25,
+  "date": "16/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 245,
+  "teamAway": "Nancy",
+  "goalsAway": "0",
+  "teamHome": "Montpellier",
+  "day": 25,
+  "date": "16/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 246,
+  "teamAway": "Troyes",
+  "goalsAway": "2",
+  "teamHome": "Toulouse",
+  "day": 25,
+  "date": "16/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 247,
+  "teamAway": "Lyon",
+  "goalsAway": "4",
+  "teamHome": "Bordeaux",
+  "day": 25,
+  "date": "17/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 248,
+  "teamAway": "St Etienne",
+  "goalsAway": "1",
+  "teamHome": "Reims",
+  "day": 25,
+  "date": "17/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 249,
+  "teamAway": "Paris SG",
+  "goalsAway": "2",
+  "teamHome": "Sochaux",
+  "day": 25,
+  "date": "17/02/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 250,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Nice",
+  "day": 26,
+  "date": "22/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 251,
+  "teamAway": "Lille",
+  "goalsAway": "3",
+  "teamHome": "Ajaccio",
+  "day": 26,
+  "date": "23/02/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 252,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 26,
+  "date": "23/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 253,
+  "teamAway": "St Etienne",
+  "goalsAway": "3",
+  "teamHome": "Nancy",
+  "day": 26,
+  "date": "23/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 254,
+  "teamAway": "Sochaux",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 26,
+  "date": "23/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 255,
+  "teamAway": "Bastia",
+  "goalsAway": "0",
+  "teamHome": "Troyes",
+  "day": 26,
+  "date": "23/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 256,
+  "teamAway": "Toulouse",
+  "goalsAway": "0",
+  "teamHome": "Valenciennes",
+  "day": 26,
+  "date": "23/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 257,
+  "teamAway": "Brest",
+  "goalsAway": "2",
+  "teamHome": "Bordeaux",
+  "day": 26,
+  "date": "24/02/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 258,
+  "teamAway": "Lorient",
+  "goalsAway": "1",
+  "teamHome": "Lyon",
+  "day": 26,
+  "date": "24/02/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 259,
+  "teamAway": "Marseille",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 26,
+  "date": "24/02/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 260,
+  "teamAway": "Rennes",
+  "goalsAway": "0",
+  "teamHome": "Montpellier",
+  "day": 27,
+  "date": "01/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 261,
+  "teamAway": "Ajaccio",
+  "goalsAway": "0",
+  "teamHome": "Bastia",
+  "day": 27,
+  "date": "02/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 262,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Lorient",
+  "day": 27,
+  "date": "02/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 263,
+  "teamAway": "Paris SG",
+  "goalsAway": "0",
+  "teamHome": "Reims",
+  "day": 27,
+  "date": "02/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 264,
+  "teamAway": "Nancy",
+  "goalsAway": "2",
+  "teamHome": "Sochaux",
+  "day": 27,
+  "date": "02/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 265,
+  "teamAway": "Nice",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 27,
+  "date": "02/03/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 266,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "0",
+  "teamHome": "Toulouse",
+  "day": 27,
+  "date": "02/03/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 267,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "Brest",
+  "day": 27,
+  "date": "03/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 268,
+  "teamAway": "Bordeaux",
+  "goalsAway": "1",
+  "teamHome": "Lille",
+  "day": 27,
+  "date": "03/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 269,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Marseille",
+  "day": 27,
+  "date": "03/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 270,
+  "teamAway": "St Etienne",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 28,
+  "date": "08/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 271,
+  "teamAway": "Lorient",
+  "goalsAway": "0",
+  "teamHome": "Ajaccio",
+  "day": 28,
+  "date": "09/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 272,
+  "teamAway": "Toulouse",
+  "goalsAway": "1",
+  "teamHome": "Brest",
+  "day": 28,
+  "date": "09/03/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 273,
+  "teamAway": "Sochaux",
+  "goalsAway": "1",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 28,
+  "date": "09/03/13",
+  "goalsHome": "5"
+ },
+ {
+  "id": 274,
+  "teamAway": "Nancy",
+  "goalsAway": "1",
+  "teamHome": "Paris SG",
+  "day": 28,
+  "date": "09/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 275,
+  "teamAway": "Reims",
+  "goalsAway": "2",
+  "teamHome": "Troyes",
+  "day": 28,
+  "date": "09/03/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 276,
+  "teamAway": "Lille",
+  "goalsAway": "3",
+  "teamHome": "Valenciennes",
+  "day": 28,
+  "date": "09/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 277,
+  "teamAway": "Bastia",
+  "goalsAway": "0",
+  "teamHome": "Bordeaux",
+  "day": 28,
+  "date": "10/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 278,
+  "teamAway": "Marseille",
+  "goalsAway": "0",
+  "teamHome": "Lyon",
+  "day": 28,
+  "date": "10/03/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 279,
+  "teamAway": "Montpellier",
+  "goalsAway": "0",
+  "teamHome": "Nice",
+  "day": 28,
+  "date": "10/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 280,
+  "teamAway": "Ajaccio",
+  "goalsAway": "0",
+  "teamHome": "Marseille",
+  "day": 29,
+  "date": "15/03/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 281,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "Bastia",
+  "day": 29,
+  "date": "16/03/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 282,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "2",
+  "teamHome": "Lille",
+  "day": 29,
+  "date": "16/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 283,
+  "teamAway": "Brest",
+  "goalsAway": "0",
+  "teamHome": "Lorient",
+  "day": 29,
+  "date": "16/03/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 284,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Montpellier",
+  "day": 29,
+  "date": "16/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 285,
+  "teamAway": "Rennes",
+  "goalsAway": "0",
+  "teamHome": "Reims",
+  "day": 29,
+  "date": "16/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 286,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Sochaux",
+  "day": 29,
+  "date": "16/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 287,
+  "teamAway": "Nice",
+  "goalsAway": "0",
+  "teamHome": "Nancy",
+  "day": 29,
+  "date": "17/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 288,
+  "teamAway": "Paris SG",
+  "goalsAway": "2",
+  "teamHome": "St Etienne",
+  "day": 29,
+  "date": "17/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 289,
+  "teamAway": "Bordeaux",
+  "goalsAway": "0",
+  "teamHome": "Toulouse",
+  "day": 29,
+  "date": "17/03/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 290,
+  "teamAway": "Montpellier",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 30,
+  "date": "29/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 291,
+  "teamAway": "Toulouse",
+  "goalsAway": "3",
+  "teamHome": "Ajaccio",
+  "day": 30,
+  "date": "30/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 292,
+  "teamAway": "Lorient",
+  "goalsAway": "1",
+  "teamHome": "Bordeaux",
+  "day": 30,
+  "date": "30/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 293,
+  "teamAway": "Reims",
+  "goalsAway": "2",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 30,
+  "date": "30/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 294,
+  "teamAway": "Nancy",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 30,
+  "date": "30/03/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 295,
+  "teamAway": "St Etienne",
+  "goalsAway": "2",
+  "teamHome": "Troyes",
+  "day": 30,
+  "date": "30/03/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 296,
+  "teamAway": "Bastia",
+  "goalsAway": "4",
+  "teamHome": "Valenciennes",
+  "day": 30,
+  "date": "30/03/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 297,
+  "teamAway": "Lille",
+  "goalsAway": "2",
+  "teamHome": "Brest",
+  "day": 30,
+  "date": "31/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 298,
+  "teamAway": "Sochaux",
+  "goalsAway": "2",
+  "teamHome": "Lyon",
+  "day": 30,
+  "date": "31/03/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 299,
+  "teamAway": "Marseille",
+  "goalsAway": "1",
+  "teamHome": "Nice",
+  "day": 30,
+  "date": "31/03/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 300,
+  "teamAway": "Bordeaux",
+  "goalsAway": "0",
+  "teamHome": "Marseille",
+  "day": 31,
+  "date": "05/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 301,
+  "teamAway": "Brest",
+  "goalsAway": "0",
+  "teamHome": "Bastia",
+  "day": 31,
+  "date": "06/04/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 302,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Montpellier",
+  "day": 31,
+  "date": "06/04/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 303,
+  "teamAway": "Troyes",
+  "goalsAway": "0",
+  "teamHome": "Nancy",
+  "day": 31,
+  "date": "06/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 304,
+  "teamAway": "Paris SG",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 31,
+  "date": "06/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 305,
+  "teamAway": "Ajaccio",
+  "goalsAway": "0",
+  "teamHome": "Sochaux",
+  "day": 31,
+  "date": "06/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 306,
+  "teamAway": "Nice",
+  "goalsAway": "4",
+  "teamHome": "Toulouse",
+  "day": 31,
+  "date": "06/04/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 307,
+  "teamAway": "Lorient",
+  "goalsAway": "0",
+  "teamHome": "Lille",
+  "day": 31,
+  "date": "07/04/13",
+  "goalsHome": "5"
+ },
+ {
+  "id": 308,
+  "teamAway": "Lyon",
+  "goalsAway": "0",
+  "teamHome": "Reims",
+  "day": 31,
+  "date": "07/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 309,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 31,
+  "date": "07/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 310,
+  "teamAway": "St Etienne",
+  "goalsAway": "0",
+  "teamHome": "Valenciennes",
+  "day": 32,
+  "date": "12/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 311,
+  "teamAway": "Nancy",
+  "goalsAway": "1",
+  "teamHome": "Ajaccio",
+  "day": 32,
+  "date": "13/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 312,
+  "teamAway": "Montpellier",
+  "goalsAway": "2",
+  "teamHome": "Bordeaux",
+  "day": 32,
+  "date": "13/04/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 313,
+  "teamAway": "Reims",
+  "goalsAway": "2",
+  "teamHome": "Brest",
+  "day": 32,
+  "date": "13/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 314,
+  "teamAway": "Rennes",
+  "goalsAway": "2",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 32,
+  "date": "13/04/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 315,
+  "teamAway": "Bastia",
+  "goalsAway": "1",
+  "teamHome": "Lorient",
+  "day": 32,
+  "date": "13/04/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 316,
+  "teamAway": "Paris SG",
+  "goalsAway": "1",
+  "teamHome": "Troyes",
+  "day": 32,
+  "date": "13/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 317,
+  "teamAway": "Marseille",
+  "goalsAway": "0",
+  "teamHome": "Lille",
+  "day": 32,
+  "date": "14/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 318,
+  "teamAway": "Toulouse",
+  "goalsAway": "1",
+  "teamHome": "Lyon",
+  "day": 32,
+  "date": "14/04/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 319,
+  "teamAway": "Sochaux",
+  "goalsAway": "0",
+  "teamHome": "Nice",
+  "day": 32,
+  "date": "14/04/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 320,
+  "teamAway": "Lyon",
+  "goalsAway": "2",
+  "teamHome": "Montpellier",
+  "day": 33,
+  "date": "19/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 321,
+  "teamAway": "Brest",
+  "goalsAway": "0",
+  "teamHome": "Marseille",
+  "day": 33,
+  "date": "20/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 322,
+  "teamAway": "Lille",
+  "goalsAway": "2",
+  "teamHome": "Bastia",
+  "day": 33,
+  "date": "21/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 323,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "1",
+  "teamHome": "Nancy",
+  "day": 33,
+  "date": "21/04/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 324,
+  "teamAway": "Nice",
+  "goalsAway": "0",
+  "teamHome": "Paris SG",
+  "day": 33,
+  "date": "21/04/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 325,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Reims",
+  "day": 33,
+  "date": "21/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 326,
+  "teamAway": "Bordeaux",
+  "goalsAway": "2",
+  "teamHome": "Sochaux",
+  "day": 33,
+  "date": "21/04/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 327,
+  "teamAway": "Lorient",
+  "goalsAway": "1",
+  "teamHome": "Toulouse",
+  "day": 33,
+  "date": "21/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 328,
+  "teamAway": "Troyes",
+  "goalsAway": "2",
+  "teamHome": "Rennes",
+  "day": 33,
+  "date": "24/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 329,
+  "teamAway": "Ajaccio",
+  "goalsAway": "2",
+  "teamHome": "St Etienne",
+  "day": 33,
+  "date": "24/04/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 330,
+  "teamAway": "Sochaux",
+  "goalsAway": "3",
+  "teamHome": "Lille",
+  "day": 34,
+  "date": "26/04/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 331,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "Ajaccio",
+  "day": 34,
+  "date": "27/04/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 332,
+  "teamAway": "Toulouse",
+  "goalsAway": "0",
+  "teamHome": "Bastia",
+  "day": 34,
+  "date": "27/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 333,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Bordeaux",
+  "day": 34,
+  "date": "27/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 334,
+  "teamAway": "Rennes",
+  "goalsAway": "2",
+  "teamHome": "Brest",
+  "day": 34,
+  "date": "27/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 335,
+  "teamAway": "Marseille",
+  "goalsAway": "1",
+  "teamHome": "Lorient",
+  "day": 34,
+  "date": "27/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 336,
+  "teamAway": "Nancy",
+  "goalsAway": "0",
+  "teamHome": "Valenciennes",
+  "day": 34,
+  "date": "27/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 337,
+  "teamAway": "Paris SG",
+  "goalsAway": "1",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 34,
+  "date": "28/04/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 338,
+  "teamAway": "St Etienne",
+  "goalsAway": "1",
+  "teamHome": "Lyon",
+  "day": 34,
+  "date": "28/04/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 339,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Nice",
+  "day": 34,
+  "date": "28/04/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 340,
+  "teamAway": "Bordeaux",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 35,
+  "date": "03/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 341,
+  "teamAway": "Bastia",
+  "goalsAway": "1",
+  "teamHome": "Marseille",
+  "day": 35,
+  "date": "04/05/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 342,
+  "teamAway": "Brest",
+  "goalsAway": "1",
+  "teamHome": "Montpellier",
+  "day": 35,
+  "date": "04/05/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 343,
+  "teamAway": "Ajaccio",
+  "goalsAway": "1",
+  "teamHome": "Reims",
+  "day": 35,
+  "date": "04/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 344,
+  "teamAway": "Lorient",
+  "goalsAway": "0",
+  "teamHome": "Sochaux",
+  "day": 35,
+  "date": "04/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 345,
+  "teamAway": "Lille",
+  "goalsAway": "2",
+  "teamHome": "Toulouse",
+  "day": 35,
+  "date": "04/05/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 346,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "0",
+  "teamHome": "Troyes",
+  "day": 35,
+  "date": "04/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 347,
+  "teamAway": "Lyon",
+  "goalsAway": "3",
+  "teamHome": "Nancy",
+  "day": 35,
+  "date": "05/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 348,
+  "teamAway": "Valenciennes",
+  "goalsAway": "1",
+  "teamHome": "Paris SG",
+  "day": 35,
+  "date": "05/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 349,
+  "teamAway": "Nice",
+  "goalsAway": "3",
+  "teamHome": "Rennes",
+  "day": 35,
+  "date": "05/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 350,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Lille",
+  "day": 36,
+  "date": "10/05/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 351,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Ajaccio",
+  "day": 36,
+  "date": "11/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 352,
+  "teamAway": "Montpellier",
+  "goalsAway": "1",
+  "teamHome": "Bastia",
+  "day": 36,
+  "date": "11/05/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 353,
+  "teamAway": "Nancy",
+  "goalsAway": "2",
+  "teamHome": "Bordeaux",
+  "day": 36,
+  "date": "11/05/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 354,
+  "teamAway": "Sochaux",
+  "goalsAway": "2",
+  "teamHome": "Brest",
+  "day": 36,
+  "date": "11/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 355,
+  "teamAway": "Toulouse",
+  "goalsAway": "1",
+  "teamHome": "Marseille",
+  "day": 36,
+  "date": "11/05/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 356,
+  "teamAway": "Rennes",
+  "goalsAway": "1",
+  "teamHome": "Valenciennes",
+  "day": 36,
+  "date": "11/05/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 357,
+  "teamAway": "Nice",
+  "goalsAway": "0",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 36,
+  "date": "12/05/13",
+  "goalsHome": "4"
+ },
+ {
+  "id": 358,
+  "teamAway": "St Etienne",
+  "goalsAway": "1",
+  "teamHome": "Lorient",
+  "day": 36,
+  "date": "12/05/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 359,
+  "teamAway": "Paris SG",
+  "goalsAway": "1",
+  "teamHome": "Lyon",
+  "day": 36,
+  "date": "12/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 360,
+  "teamAway": "Valenciennes",
+  "goalsAway": "0",
+  "teamHome": "Evian Thonon Gaillard",
+  "day": 37,
+  "date": "18/05/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 361,
+  "teamAway": "Lille",
+  "goalsAway": "0",
+  "teamHome": "Montpellier",
+  "day": 37,
+  "date": "18/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 362,
+  "teamAway": "Bastia",
+  "goalsAway": "2",
+  "teamHome": "Nancy",
+  "day": 37,
+  "date": "18/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 363,
+  "teamAway": "Brest",
+  "goalsAway": "1",
+  "teamHome": "Paris SG",
+  "day": 37,
+  "date": "18/05/13",
+  "goalsHome": "3"
+ },
+ {
+  "id": 364,
+  "teamAway": "Lorient",
+  "goalsAway": "0",
+  "teamHome": "Reims",
+  "day": 37,
+  "date": "18/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 365,
+  "teamAway": "Ajaccio",
+  "goalsAway": "1",
+  "teamHome": "Rennes",
+  "day": 37,
+  "date": "18/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 366,
+  "teamAway": "Toulouse",
+  "goalsAway": "2",
+  "teamHome": "Sochaux",
+  "day": 37,
+  "date": "18/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 367,
+  "teamAway": "Marseille",
+  "goalsAway": "0",
+  "teamHome": "St Etienne",
+  "day": 37,
+  "date": "18/05/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 368,
+  "teamAway": "Bordeaux",
+  "goalsAway": "0",
+  "teamHome": "Troyes",
+  "day": 37,
+  "date": "18/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 369,
+  "teamAway": "Lyon",
+  "goalsAway": "1",
+  "teamHome": "Nice",
+  "day": 37,
+  "date": "19/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 370,
+  "teamAway": "Nice",
+  "goalsAway": "2",
+  "teamHome": "Ajaccio",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 371,
+  "teamAway": "Sochaux",
+  "goalsAway": "0",
+  "teamHome": "Bastia",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 372,
+  "teamAway": "Evian Thonon Gaillard",
+  "goalsAway": "1",
+  "teamHome": "Bordeaux",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 373,
+  "teamAway": "Nancy",
+  "goalsAway": "2",
+  "teamHome": "Brest",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 374,
+  "teamAway": "St Etienne",
+  "goalsAway": "1",
+  "teamHome": "Lille",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 375,
+  "teamAway": "Paris SG",
+  "goalsAway": "3",
+  "teamHome": "Lorient",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "1"
+ },
+ {
+  "id": 376,
+  "teamAway": "Rennes",
+  "goalsAway": "0",
+  "teamHome": "Lyon",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 377,
+  "teamAway": "Reims",
+  "goalsAway": "0",
+  "teamHome": "Marseille",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "0"
+ },
+ {
+  "id": 378,
+  "teamAway": "Montpellier",
+  "goalsAway": "0",
+  "teamHome": "Toulouse",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "2"
+ },
+ {
+  "id": 379,
+  "teamAway": "Troyes",
+  "goalsAway": "1",
+  "teamHome": "Valenciennes",
+  "day": 38,
+  "date": "26/05/13",
+  "goalsHome": "2"
+ }
+]
