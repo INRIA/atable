@@ -1,7 +1,7 @@
 À Table!
 ======
 
-This repository contains the accompying code of the following [ACM CHI 2014](http://chi2014.acm.org) article:
+This repository contains the code of the following article presented at [ACM CHI 2014](http://chi2014.acm.org):
 
 Charles Perin, Romain Vuillemot, Jean-Daniel Fekete. [*À Table! Improving Temporal Navigation in Soccer Ranking Tables.*](http://hal.inria.fr/docs/00/92/98/44/PDF/atable.pdf) Proceedings of the 2014 Annual Conference on Human Factors in Computing Systems (CHI 2014), Apr 2014, Toronto, ON, Canada. ACM
 
@@ -23,3 +23,5 @@ To cite the project or the article:
   year={2014}
 }
 </pre>
+
+We invite the research community to build new table navigation techniques upon this prototype. Its architecture is modular enough to quickly plug any new interaction technique.
